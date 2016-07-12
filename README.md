@@ -5,7 +5,7 @@ Avito Duplicate Ads Detection
 
 All data files should be contained in the **data** directory.
 
-Script used joblib's [Memory](https://pythonhosted.org/joblib/memory.html) feature to cache intermediate results.
+Script used joblib's [Memory](https://pythonhosted.org/joblib/memory.html) feature to cache intermediate results. So it assumes there is also **avito-cache** folder in the current directory.
 
 `$ jupyter-nbconvert --to=python avito_xgb.ipynb`
 
